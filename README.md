@@ -52,6 +52,7 @@ cargo build --release
 To run the emulator with a CHIP-8 ROM file:
 
 ```bash
+cd desktop
 cargo run --release path/to/your/rom.ch8
 ```
 
