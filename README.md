@@ -18,15 +18,24 @@ Welcome to my implementation of a **CHIP-8 emulator** built using **Rust** and *
 - **Rust** (latest stable version)
 - **SDL2** development libraries
 
+#### Linux
 On Linux, you can install SDL2 via:
 ```bash
 sudo apt-get install libsdl2-dev
 ```
 
+#### macOS
 On macOS, use:
 ```bash
 brew install sdl2
 ```
+
+#### Windows
+On Windows, you will need to:
+
+1. Install [Visual Studio](https://visualstudio.microsoft.com/) with the C++ build tools.
+2. Install Rust using [rustup](https://rustup.rs/).
+3. Download and install the [SDL2 development libraries for MinGW](https://www.libsdl.org/download-2.0.php). Make sure to place the `SDL2.dll` file in your project directory or system PATH.
 
 ### Build
 
@@ -101,4 +110,3 @@ By the end of this project, I hope to have a more comprehensive understanding of
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
